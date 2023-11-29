@@ -141,7 +141,7 @@ class _LoginPageState extends State<LoginPage> {
                                 MaterialPageRoute(
                                     builder: (_) => SignUpPage()));
                           },
-                          child: Text("create a new account.",
+                          child: Text("create a new account",
                               style: TextStyle(color: Colors.red)),
                         ),
                         Text('Or'),
